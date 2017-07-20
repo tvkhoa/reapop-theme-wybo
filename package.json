@@ -1,6 +1,6 @@
 {
   "name": "eh-noti-theme",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Official theme for EH Reapop Noti",
   "main": "index.js",
   "scripts": {
