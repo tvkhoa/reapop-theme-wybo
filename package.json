@@ -1,16 +1,12 @@
 {
-  "name": "reapop-theme-wybo",
-  "version": "0.4.1",
-  "description": "Official theme for Reapop",
+  "name": "eh-noti-theme",
+  "version": "0.4.2",
+  "description": "Official theme for EH Reapop Noti",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node-sass src/styles/styles.scss -o lib",
     "prepublish": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LouisBarranqueiro/reapop-theme-wybo.git"
   },
   "keywords": [
     "reapop",
@@ -23,12 +19,7 @@
   ],
   "author": "Louis Barranqueiro",
   "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/LouisBarranqueiro/reapop-theme-wybo/issues"
-  },
-  "homepage": "https://github.com/LouisBarranqueiro/reapop-theme-wybo#readme",
   "peerDependencies": {
-    "font-awesome": "^4.6.1",
     "reapop": ">=0.6.0"
   },
   "devDependencies": {

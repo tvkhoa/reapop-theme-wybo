@@ -34,7 +34,7 @@ var notificationClassName = {
   title: css['notification-title'],
   message: css['notification-message'],
   // `fa` corresponds to font-awesome's class name
-  icon: 'fa ' + css['notification-icon'],
+  icon: 'nc-icon-glyph ' + css['notification-icon'],
   imageContainer: css['notification-image-container'],
   image: css['notification-image'],
   status: function status(_status) {
@@ -52,7 +52,7 @@ var notificationClassName = {
     return css['notification-buttons'];
   },
   closeButtonContainer: css['notification-close-button-container'],
-  closeButton: 'fa ' + css['notification-close-button'],
+  closeButton: 'nc-icon-glyph ' + css['notification-close-button'],
   button: css['notification-button'],
   buttonText: css['notification-button-text']
 };
